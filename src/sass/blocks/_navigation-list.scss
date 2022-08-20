@@ -1,0 +1,27 @@
+.navigation-list {
+	ul {
+		display: flex;
+		padding-bottom: 32px;
+		border-bottom: 1px solid $gray;
+	}
+
+	li {
+		margin-right: 155px;
+		color: $gray;
+
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+
+	a {
+		&:hover {
+			color: $black;
+		}
+
+		&.active {
+			color: $black;
+			font-weight: bold;
+		}
+	}
+}
