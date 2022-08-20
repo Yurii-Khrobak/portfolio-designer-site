@@ -1,0 +1,25 @@
+.about__row {
+	display: flex;
+	flex-direction: column;
+	margin-top: 225px;
+	margin-bottom: 200px;
+	max-width: 446px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.about__title {
+	margin-bottom: 18px;
+
+	font-size: 34px;
+	line-height: 42px;
+}
+
+.about p {
+	margin-bottom: 50px;
+}
+
+p:last-child {
+	margin-bottom: 0;
+}

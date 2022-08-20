@@ -1,0 +1,39 @@
+.foorter__column {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.footer-contacts {
+	margin-top: 115px;
+	margin-bottom: 20px;
+}
+
+.footer p {
+	margin-bottom: 30px;
+}
+.contact-btn {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.social__row {
+	display: flex;
+	column-gap: 70px;
+	margin-top: 70px;
+	justify-content: center;
+}
+
+.social-text {
+	display: flex;
+	color: $gray;
+	font-size: 14px;
+	line-height: 17px;
+	justify-content: center;
+	margin-top: 45px;
+	margin-bottom: 125px;
+	max-width: 190px;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}

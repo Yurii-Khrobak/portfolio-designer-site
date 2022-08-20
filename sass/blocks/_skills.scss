@@ -1,0 +1,40 @@
+.skills__row {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin-top: 90px;
+	margin-bottom: 85px;
+}
+
+.skills__title {
+	font-size: 34px;
+	line-height: 42px;
+	margin-bottom: 70px;
+}
+
+.skills-program__row {
+	display: flex;
+	column-gap: 170px;
+}
+
+.program-skills {
+	display: flex;
+	flex-direction: column;
+	justify-content: stretch;
+	max-width: 128px;
+	max-height: 205px;
+}
+
+.skills-img {
+	margin-bottom: 25px;
+}
+
+.small-width {
+	width: 85px;
+}
+
+.skills-program__title {
+	align-items: baseline;
+	text-align: center;
+	color: $gray;
+}

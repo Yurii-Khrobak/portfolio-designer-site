@@ -1,0 +1,43 @@
+.header__row {
+	display: flex;
+	margin-top: 40px;
+	margin-bottom: 30px;
+
+	column-gap: 300px;
+	max-height: 125px;
+}
+
+.author-name {
+	font-size: 47px;
+	line-height: 59px;
+}
+
+.author-bio {
+	margin-top: 65px;
+}
+
+.language-svg {
+	position: absolute;
+	margin-top: 35px;
+
+	height: 68px;
+	width: 17.05px;
+}
+
+.active-eng {
+	.ru {
+		fill: $gray;
+	}
+	.eng {
+		fill: $black;
+	}
+}
+
+.active-ru {
+	.ru {
+		fill: $black;
+	}
+	.eng {
+		fill: $gray;
+	}
+}
